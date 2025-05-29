@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай цвет</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Угадай цвет</h1>
+        <p class="instructions">Выберите правильный HEX-код для каждого цветного квадрата. В каждом блоке один вариант верный!</p>
+        
+        <div class="color-blocks">
+            <!-- Блок 1 -->
+            <div class="color-block">
+                <div class="color-square" style="background-color: #1E90FF;"></div>
+                <div class="options">
+                    <a href="success.html" class="option correct">#1E90FF</a>
+                    <a href="error.html" class="option">#FF6347</a>
+                    <a href="error.html" class="option">#4682B4</a>
+                    <a href="error.html" class="option">#4169E1</a>
+                </div>
+            </div>
+            
+            <!-- Блок 2 -->
+            <div class="color-block">
+                <div class="color-square" style="background-color: #FF6347;"></div>
+                <div class="options">
+                    <a href="error.html" class="option">#FF4500</a>
+                    <a href="success.html" class="option correct">#FF6347</a>
+                    <a href="error.html" class="option">#FF7F50</a>
+                    <a href="error.html" class="option">#CD5C5C</a>
+                </div>
+            </div>
+            
+            <!-- Блок 3 -->
+            <div class="color-block">
+                <div class="color-square" style="background-color: #3CB371;"></div>
+                <div class="options">
+                    <a href="error.html" class="option">#2E8B57</a>
+                    <a href="error.html" class="option">#228B22</a>
+                    <a href="success.html" class="option correct">#3CB371</a>
+                    <a href="error.html" class="option">#008000</a>
+                </div>
+            </div>
+            
+            <!-- Блок 4 -->
+            <div class="color-block">
+                <div class="color-square" style="background-color: #9370DB;"></div>
+                <div class="options">
+                    <a href="error.html" class="option">#8A2BE2</a>
+                    <a href="error.html" class="option">#9932CC</a>
+                    <a href="error.html" class="option">#9400D3</a>
+                    <a href="success.html" class="option correct">#9370DB</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
